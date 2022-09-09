@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "scoreboard-hider",
+  "version": "${version}",
+  "name": "Scoreboard Hider",
+  "description": "removes the scoreboard",
+  "authors": [
+    "marinersfan824"
+  ],
+  "contact": {
+    "repo": "https://github.com/marinersfan824/scoreboard-hider"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.marinersfan824.scoreboardhider.ScoreboardHider"
+    ]
+  },
+  "mixins": [
+    "scoreboard-hider.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.2"
+  }
+}
