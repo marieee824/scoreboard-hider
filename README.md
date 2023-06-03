@@ -1,4 +1,4 @@
 # Scoreboard Hider Mod
 ### Removes the sidebar scoreboard for qol
-### Made for version 1.19.2
+### Made for version 1.19+ no idea how many other versions it works for
 

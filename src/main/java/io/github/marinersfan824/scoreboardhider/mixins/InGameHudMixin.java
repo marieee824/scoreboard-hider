@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(InGameHud.class)
-public abstract class ClientWorldMixin {
+public class InGameHudMixin {
     @Inject(method = "renderScoreboardSidebar", at = @At("HEAD"), cancellable = true)
     private void cancelSidebar(MatrixStack matrices, ScoreboardObjective objective, CallbackInfo ci) {
         ci.cancel();
