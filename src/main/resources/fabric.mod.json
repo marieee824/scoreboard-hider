@@ -1,19 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "scoreboard-hider",
+  "id": "scoreboardhider",
   "version": "${version}",
   "name": "Scoreboard Hider",
-  "description": "removes the scoreboard",
+  "description": "adds the ability to toggle the scoreboard and title text visibility",
   "authors": [
-    "marinersfan824"
+    "marie"
   ],
   "contact": {
-    "repo": "https://github.com/marinersfan824/scoreboard-hider"
+    "repo": "https://github.com/marieee824/scoreboard-hider"
   },
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
+      "io.github.marinersfan824.scoreboardhider.ScoreboardHider"
+    ],
+    "client": [
       "io.github.marinersfan824.scoreboardhider.ScoreboardHider"
     ]
   },
@@ -22,6 +25,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.14.9",
-    "minecraft": "*"
+    "fabric-api": "*",
+    "minecraft": "1.20.*"
   }
 }

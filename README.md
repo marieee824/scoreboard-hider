@@ -1,4 +1,5 @@
 # Scoreboard Hider Mod
-### Removes the sidebar scoreboard and title texts for QOL
-### Made for version 1.19+ no idea how many other versions it works for
+### Adds the option to disable sidebar scoreboard and title text using keybinds
+### Supports versions 1.20+ as of 8/8/2023
+### Fabric api is required
 
